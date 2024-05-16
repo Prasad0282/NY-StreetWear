@@ -1,0 +1,46 @@
+.carousel-item {
+  height: 730px;
+}
+.carousel-inner {
+  transition: ease-in;
+  transition-delay: 1s;
+  transition-duration: 2s;
+}
+.feature {
+  background: rgb(0, 121, 230);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(231, 221, 221);
+  box-shadow: whitesmoke;
+}
+.text-ice-blue {
+  color: #afeeee; /* Ice blue color */
+}
+.footer_links:hover,
+.footer_links:active {
+  text-decoration: rgb(0, 121, 230);
+  text-transform: initial;
+  text-shadow: #afeeee;
+  text-decoration: none;
+  text-underline-offset: none;
+}
+.text-center mt-3 {
+  text-align: center;
+  justify-content: center;
+  margin-left: 3rem;
+}
+.col-md-4 {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+}
+#carouselExampleIndicators .carousel-indicators {
+  margin-bottom: -10px; /* Adjust the negative margin as needed */
+}
+* {
+  scroll-behavior: smooth;
+}
+.feature {
+  background-color: black;
+}
+link[rel="icon"].rounded-icon {
+  border-radius: 50%;
+}
